@@ -9,3 +9,7 @@ group = "com.example"
 application {
     mainClass.set("com.example.ApplicationKt")
 }
+
+dependencies {
+    implementation(project(":shared"))
+}
